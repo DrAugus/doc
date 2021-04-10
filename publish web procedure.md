@@ -66,7 +66,7 @@ $signPackage = $jssdk->getSignPackage();
 * `Define.js`or`Platform.js`里的`LOGIN_SERVER_IP`改为服务器IP
 
 * 点击导航栏`项目` -> `构建发布` (或直接热键`Ctrl+Shift+B`) 参照下图详细配置
-  ![img_1.png](img_1.png)
+  ![img_1.png](png/img_1.png)
 
 * 点击`构建`
 

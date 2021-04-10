@@ -58,7 +58,7 @@ LOGIN_SERVER_IP = cc.sys.isNative ? 'xxx.xxx.xxx.xxx' : '127.0.0.1'
 
 * 点击导航栏`项目` -> `构建发布` (或直接热键`Ctrl+Shift+B`) 参照下图详细配置
 
-![详细配置](img.png)
+![详细配置](png/img.png)
 
 * 配置完毕点击`构建`，构建成功后进行热更新配置
 
