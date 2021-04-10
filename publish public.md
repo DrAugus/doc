@@ -83,3 +83,22 @@ $WXSecret = "5e67dac50e449fa57d75f957939773c0";
 # 5 游戏启动
 
 打开`游戏服务器`进行房间配置。后续即可使用一键启动脚本。
+
+# Cocos Creator 配置
+
+* 点击左上角`Cocos Creator` -> `偏好设置` -> `原生开发环境`
+
+  分别配置
+    * `NDK路径` 为`yourandroidsdk\ndk-bundle`
+
+    * `Android SDK路径` 为`yourandroidsdk`
+
+    * `ANT路径` 为`yourant\bin`
+
+# TIPS
+
+可能遇到的问题
+
+* 无法构建 compile failed
+
+  可能由于项目路径过长
