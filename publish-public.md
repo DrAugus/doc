@@ -2,7 +2,7 @@
 
 按文档账号密码进行连接（不会有人不会吧
 
-# 2 游戏配置
+## 2 游戏配置
 
 ### 文件导入
 
@@ -14,7 +14,7 @@
 
 * `install files`放置 三个必备软件/Plugins `msodbcsqlx86` `nppInstaller32` `vc_redist.x86` (均建议32位)
 
-# 3 数据库处理
+## 3 数据库处理
 
 ### 3-1 启动
 
@@ -41,7 +41,7 @@
 |`MachineID` | 用`GMtools`下方的机器标识 |
 |首尾字段|auto update 无须填入|
 
-# 4 iis php搭建
+## 4 iis php搭建
 
 ### part php
 
@@ -65,12 +65,12 @@ $WXSecret = "5e67dac50e449fa57d75f957939773c0";
 * 在该php网站IIS部分找到`处理程序映射`，点击`添加模块映射`，请求路径键入`*.php`，模块选择`FastCgiModule`
   ，可执行文件选择`C:\phpStudy\PHPTutorial\php\php-7.2.1-nts\php-cgi.exe`，名称随意（建议填php），点击确定。
 
-全部操作完成在浏览器键入 http://localhost:8080/index.php 如为 `sql srv succ! `即配置成功
+全部操作完成在浏览器键入 <http://localhost:8080/index.php> 如为 `sql srv succ!` 即配置成功
 (对于非apk项目需要导入默认index.php页才能看到成功标记)
 
 > **如遇热更新失败需要检查IIS MIME配置**
 
-```
+```java
 <staticContent>
     <mimeMap fileExtension=".plist" mimeType="application/octet-stream" />
     <mimeMap fileExtension=".jsc" mimeType="application/octet-stream" />
@@ -80,22 +80,21 @@ $WXSecret = "5e67dac50e449fa57d75f957939773c0";
 </staticContent>
 ```
 
-# 5 游戏启动
+## 5 游戏启动
 
 打开`游戏服务器`进行房间配置。后续即可使用一键启动脚本。
 
-# Cocos Creator 配置
+## Cocos Creator 配置
 
-* 点击左上角`Cocos Creator` -> `偏好设置` -> `原生开发环境`
+点击左上角`Cocos Creator` -> `偏好设置` -> `原生开发环境`
 
-  分别配置
-    * `NDK路径` 为`yourandroidsdk\ndk-bundle`
+分别配置
 
-    * `Android SDK路径` 为`yourandroidsdk`
+* `NDK路径` 为`yourandroidsdk\ndk-bundle`
+* `Android SDK路径` 为`yourandroidsdk`
+* `ANT路径` 为`yourant\bin`
 
-    * `ANT路径` 为`yourant\bin`
-
-# TIPS
+## TIPS
 
 可能遇到的问题
 
